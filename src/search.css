@@ -1,0 +1,108 @@
+/* Container for the entire search component */
+.search-container {
+  position: relative;
+  background-color: rgb(240, 227, 227);
+  box-sizing: border-box;
+  color: rgb(199, 60, 60);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 auto;
+  width: 90%; /* Make it responsive */
+  max-width: 380px;
+  height: auto; /* Adjust height for content */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+
+/* Style for the search input field */
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%; /* Make it responsive */
+  max-width: 340px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Container for the filter options */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Style for the filter dropdowns */
+.filter-select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Make it responsive */
+  max-width: 340px;
+}
+
+/* Style for the search button */
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 340px;
+}
+
+.search-button:hover {
+  background-color: #770ad0;
+}
+
+/* Container for the list of clothing items */
+.clothing-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+  overflow-y: auto;
+  max-height: auto; /* Limit height for scrolling */
+}
+
+.clothing-item {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 340px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.clothing-item h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.clothing-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.no-results {
+  margin: 20px 0;
+  color: #999;
+}

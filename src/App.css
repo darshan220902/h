@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  color:black;
+  
+}
+
+.clothing-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+
+.clothing-item {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+
+.image-container{
+  max-width: 100%;
+  height:max-content;
+
+}
+
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Add more CSS styles for other elements as needed */

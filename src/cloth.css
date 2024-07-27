@@ -1,0 +1,93 @@
+/* cloth.css */
+
+.clothing-container {
+    position: relative;
+    background-color: rgb(240, 227, 227);
+    box-sizing: border-box;
+    color: rgb(199, 60, 60);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 auto;
+    align-items: center;
+    width: 380px; /* Same width as the target element */
+    height: auto; /* Same height as the target element */
+    padding: 0px; /* Adjust padding as needed */
+}
+
+.clothing-item {
+    color: white;
+    padding: 0px;
+    margin: 12px 0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.clothing-item h3 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.clothing-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 0px;
+    overflow-y: auto;
+    max-height: auto; /* Limit height for scrolling */
+  }
+  
+/* cloth.css */
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center; /* Center the text horizontally */
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1:hover {
+    color: #007bff;
+  }
+  
+  /* cloth.css */
+
+/* Flex container for buttons */
+.button-container {
+    display: flex;
+    padding-left: 182px; /* Use flexbox */
+    color: beige;
+
+  }
+  
+  /* Apply space between buttons */
+  .button-container button {
+    margin-right: 8px;
+    color:aliceblue;
+    background-color:black;
+ /* Adjust the right margin to add space */
+  }
+  .button-container button:hover{
+  background-color: #1e9611;
+ 
+}
+.heart-button-container{
+  display: flex;
+  padding-left: 140px;
+  color: beige;
+}
+.heart-button-container button {
+  background-color:transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 150px;
+
+
+}
+

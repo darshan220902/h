@@ -1,0 +1,30 @@
+/* copoun.css */
+
+.coupon-container {
+    position: relative;
+    background-color:rgb(240, 227, 227);
+    box-sizing: border-box;
+    color: rgb(199, 60, 60);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 auto;
+    width: 380px; /* Same width as home.js */
+    height: 700px; /* Same height as home.js */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.coupon {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.coupon h3 {
+    margin: 0;
+    font-size: 18px;
+}
